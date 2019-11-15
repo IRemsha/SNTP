@@ -1,12 +1,14 @@
-# SNTP
-Простой SNTP [Simple Network Time Protocol] сервер, который врёт на N секуд указанных в файле conf.txt. 
+# Simple Network Time Protocol
+Простой SNTP сервер, который врёт на N секуд указанных в файле conf.txt. 
 
 # Цель работы
   - Познакомиться с протоколом SNTP/NTP
   - Работа с сокетами
 
-# Запуск 
+# Запуск сервера
 > C:\QPaint>python server.py
+
+# Запуск клиента
 > C:\QPaint>python client.py
 
 
